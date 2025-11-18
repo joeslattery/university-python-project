@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Python Project Portfolio | Joseph Slattery</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f4f4f7;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background: #1e1e2f;
+      color: #fff;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      margin-top: 10px;
+      font-size: 1.1rem;
+      opacity: 0.9;
+    }
+    .container {
+      max-width: 900px;
+      margin: 30px auto;
+      background: #fff;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    h2 {
+      margin-top: 0;
+      color: #1e1e2f;
+      border-left: 4px solid #4f46e5;
+      padding-left: 10px;
+    }
+    .section {
+      margin-bottom: 40px;
+    }
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    ul li::before {
+      content: "• ";
+      color: #4f46e5;
+      font-weight: bold;
+    }
+    .btn {
+      display: inline-block;
+      background: #4f46e5;
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 8px;
+      text-decoration: none;
+      margin-top: 10px;
+    }
+    .btn:hover {
+      background: #3730a3;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Python Dynamic Systems & Kalman Filtering Project</h1>
+    <p>Numerical Methods • State Estimation • Simulation • Python Engineering</p>
+  </header>
+
+  <div class="container">
+    <section class="section">
+      <h2>📘 Project Overview</h2>
+      <p>This project implements a set of numerical and state‑estimation tools in Python, including solving ODEs, applying the Implicit Euler method, building Kalman filters, and simulating multi‑dimensional dynamical systems. The work demonstrates strong mathematical modelling, clean Python implementation, and data visualization.</p>
+      <a class="btn" href="https://github.com/joeslattery/university-python-project/blob/main/python_project.ipynb">View Jupyter Notebook</a>
+    </section>
+
+    <section class="section">
+      <h2>🧰 Technologies Used</h2>
+      <ul>
+        <li>Python 3</li>
+        <li>NumPy</li>
+        <li>Matplotlib</li>
+        <li>Jupyter Notebook</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>🧮 Key Components</h2>
+      <ul>
+        <li>Second‑order ODE → state‑space conversion</li>
+        <li>Implicit Euler method implementation</li>
+        <li>Kalman filter prediction & update</li>
+        <li>High‑dimensional dynamic simulation</li>
+        <li>Visualization of trajectories and estimation error</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>📊 Visualizations</h2>
+      <p>The notebook includes plots of:</p>
+      <ul>
+        <li>Position and velocity trajectories</li>
+        <li>Kalman estimation vs. ground truth</li>
+        <li>Error evolution over time</li>
+        <li>Phase‑space behaviour</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>▶️ Running the Project</h2>
+      <p>Clone the repo and install dependencies:</p>
+      <pre><code>pip install numpy matplotlib
+jupyter notebook
+      </code></pre>
+      <p>Then open <strong>python_project.ipynb</strong> and run all cells.</p>
+    </section>
+
+    <section class="section">
+      <h2>🚀 Future Enhancements</h2>
+      <ul>
+        <li>Convert project to a Python module</li>
+        <li>Add interactive sliders using ipywidgets</li>
+        <li>Extend to nonlinear filtering (EKF/UKF)</li>
+      </ul>
+    </section>
+  </div>
+
+  <footer>
+    © 2025 Joseph Slattery • Engineering & Simulation Portfolio
+  </footer>
+</body>
+</html>
